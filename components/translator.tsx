@@ -42,7 +42,7 @@ export function Translator() {
 
   const convertToFormalEnglish = async (text: string, targetLanguage: string) => {
     const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
-    const API_KEY = "AIzaSyAB-Nl-3tMONIcpd2OiObZKYa6jhA5hcNQ"
+    const API_KEY = "PUT_YOUR_API_KEY"
 
     if (!API_KEY) {
       throw new Error("API key is not set. Please check your environment variables.")
